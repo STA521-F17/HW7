@@ -5,8 +5,8 @@ build:
      - script:
         name: Render R markdown
         code: |
-          Rscript -e "library(devtools); install_github('merliseclyde/BAS');library(rmarkdown);render('HW6.Rmd')"
+          Rscript -e "library(devtools); install_github('merliseclyde/BAS');library(rmarkdown);render('HW7.Rmd')"
      - script:
         name: Check for allowed files
         code: |
-          Rscript -e "source('https://raw.githubusercontent.com/STA521-F17/HW6/master/HW6_whitelist.R')"
+          Rscript -e "source('https://raw.githubusercontent.com/STA521-F17/HW7/master/HW7_whitelist.R')"
